@@ -1,15 +1,14 @@
 return {
   {
-    "catppuccin/nvim",
-    name = "catppuccin",
-    opts = {
-      flavour = "mocha",
-    },
+    "projekt0n/github-nvim-theme",
+    name = "github-theme",
+    lazy = false,
+    priority = 1000,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "github_dark_default",
     },
   },
 }

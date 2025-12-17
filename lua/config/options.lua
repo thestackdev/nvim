@@ -3,3 +3,4 @@
 -- Add any additional options here
 
 vim.g.snacks_animate = true
+vim.opt.smoothscroll = true
